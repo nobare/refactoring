@@ -1,4 +1,4 @@
-import { calculateRide } from '../../src/version_1/main'
+/*  */import { calculateRide } from '../../src/version_1/main'
 
 test('Deve calcular uma corrida durante a semana de dia', () => {
     const run = [
