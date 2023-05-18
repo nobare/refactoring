@@ -1,8 +1,8 @@
 export default class Ride {
 
     constructor (readonly distance: number, readonly date: Date) {
-        if (!this.isValidDistance(distance)) throw new Error('Invalid distance');
-        if (!this.isValidDate(date)) throw new Error('Invalid date');
+        if (!this.isValidDistance(distance)) throw new Error('Invalid Distance');
+        if (!this.isValidDate(date)) throw new Error('Invalid Date');
     }
     
     isValidDistance(distance: number) {

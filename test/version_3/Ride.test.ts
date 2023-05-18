@@ -1,4 +1,6 @@
-import Ride from '../../src/version_2/Ride';
+import Ride from '../../src/version_3/Ride';
+
+//Simple Factory Stategy
 
 test('Corrida durante a semana de dia', () => {
     const ride = new Ride();
@@ -36,5 +38,4 @@ test('Deve retornar erro se a data for invalida', () => {
 test('Deve retornar erro se a distancia for invalida', () => {
     const ride = new Ride();
     expect(() => ride.addSegment(-10, new Date('2021-03-07T23:00:00'))).toThrow(new Error('Invalid Distance'));
-
 });

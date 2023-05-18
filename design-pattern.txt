@@ -1,0 +1,7 @@
+Design Pattern: Uma forma conhecida e comum de distribuição de responsabilidades entre classes.
+
+Strategy: Ter comportamentos diferentes para o mesmo contrato
+version_3: Factory (simple): Criar instância com base em algum critério
+version_4: Chain of Responsability: Encadeamento comportamento, permitindo que um dos elos (classes encadeadas) DECIDAM se tratam ou não, e se não tratatarem passam para a próxima
+
+RETOMAR 18:40 
